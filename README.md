@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Coding Challenge Uber Back End :alien: </h1>
+<h1 align="center">:file_cabinet: Coding Challenge Uber Back End :blue_car: </h1>
 
 ## :memo: Descrição
 
