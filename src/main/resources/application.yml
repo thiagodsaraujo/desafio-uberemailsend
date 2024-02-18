@@ -1,0 +1,10 @@
+cloud:
+    aws:
+        region:
+            static: sa-east-1
+            auto: false
+        stack:
+            auto: false
+        credentials:
+            accessKeyId:${accessKeyId}
+            secretKey:${secretKey}
