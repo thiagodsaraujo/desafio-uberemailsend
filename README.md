@@ -45,9 +45,9 @@ The API will be accessible at http://localhost:8080
 API Endpoints
 The API provides the following endpoints:
 
-* GET EMAIL
+## :email:  GET EMAIL
 
-- POST /api/email/send - Send a e-mail from your sender to the destination
+* POST /api/email/send - Send a e-mail from your sender to the destination
 
 - BODY
 
@@ -57,6 +57,7 @@ The API provides the following endpoints:
   "subject": "teste",
   "body": "teste"
 }
+
 ```
 ## :soon: Implementação futura
 
@@ -65,5 +66,5 @@ The API provides the following endpoints:
 * Implementações de lock e threads para evitar concorrencia de transações(race conditions)
 
 ## :dart: Status do projeto
- * :+1: Finalizado
+ * :punch: Andamento
 
