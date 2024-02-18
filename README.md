@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Desafio PicPay :alien: </h1>
+<h1 align="center">:file_cabinet: Coding Challenge Uber Back End :alien: </h1>
 
 ## :memo: Descrição
 
@@ -15,7 +15,7 @@ Codding Challenge Open Source da Uber para a construção de um Email Service Pr
 
 - Clean Arquiteture
 - Adapter Pattern
-- Envio de e-mails
+- Email Service Provider
 - Boas práticas
 - Tratamento de respostas de erro
 
@@ -31,6 +31,33 @@ $ ./mvnw clean package
 $ java -jar target/desafio-uberemailsend-0.0.1-SNAPSHOT.jar
 ```
 
+- Update application.properties puting your AWS Credentials:
+
+```
+$ aws.region=us-east-1
+$ aws.accessKeyId=1111111
+$ aws.secretKey=111111
+```
+
+* Usage
+Start the application with Maven
+The API will be accessible at http://localhost:8080
+API Endpoints
+The API provides the following endpoints:
+
+* GET EMAIL
+
+- POST /api/email/send - Send a e-mail from your sender to the destination
+
+- BODY
+
+```
+{
+  "to": "liveskipperdev@gmail.com",
+  "subject": "teste",
+  "body": "teste"
+}
+```
 ## :soon: Implementação futura
 
 * Implementações de segurança
