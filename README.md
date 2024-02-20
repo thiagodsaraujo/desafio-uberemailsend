@@ -2,7 +2,7 @@
 
 ## :memo: Descrição
 
-Codding Challenge Open Source da Uber para a construção de um Email Service Provider utilizando a AWS SES que faz parte [desse desafio]([https://github.com/PicPay/picpay-desafio-backend](https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md)) para pessoas desenvolvedoras backend.
+Codding Challenge Open Source da Uber para a construção de um Email Service Provider utilizando a AWS SES que faz parte [desse desafio]([https://github.com/PicPay/picpay-desafio-backend](https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md) para pessoas desenvolvedoras backend.
 
 ## :books: Funcionalidades
 * <b>Funcionalidade</b>: Transferência entre contas
